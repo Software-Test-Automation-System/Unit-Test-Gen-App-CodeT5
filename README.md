@@ -1,6 +1,6 @@
-# Unit-Test-Gen-App-CodeT5
+# Système d'automatisation de tests logiciels basé sur l'IA
 
-**Unit-Test-Gen-App-CodeT5** est un projet basé sur une architecture microservices, conçu pour gérer, générer et tester des tests unitaires pour des projets Java. Ce projet utilise différentes technologies et frameworks pour garantir évolutivité, flexibilité et facilité d'utilisation.
+**Système d'automatisation de tests logiciels basé sur l'IA** est un projet basé sur une architecture microservices, conçu pour gérer, générer et tester des tests unitaires pour des projets Java. Ce projet utilise différentes technologies et frameworks pour garantir évolutivité, flexibilité et facilité d'utilisation.
 
 ## Structure du Projet
 
