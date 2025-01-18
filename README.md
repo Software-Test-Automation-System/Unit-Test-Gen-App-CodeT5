@@ -44,7 +44,7 @@ Le projet intègre un modèle d'intelligence artificielle, **CodeT5-Base**, pour
 ### Étape 1 : Télécharger le Modèle Préentrainé
 
 1. Téléchargez le modèle préentrainé `CodeT5-Base` à partir du lien suivant :  
-   [Google Drive - CodeT5-Base Model](https://drive.google.com/drive/folders/1RkWwGUak5Zo_P0cDl7406nNisc5mp6wy)
+   [Google Drive - CodeT5-Base Model](https://drive.google.com/drive/folders/1a-J1XfUvM9SR_jijnUE3IXoBlquuZ9xs?usp=sharing)
 
 2. Placez les fichiers du modèle dans un répertoire nommé `Model` à côté du fichier `app.py`. La structure doit ressembler à ceci :
 
