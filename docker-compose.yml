@@ -1,0 +1,26 @@
+networks:
+  mynetwork: 
+    driver: bridge
+services:
+    mysql:
+        image: mysql:latest
+        container_name: mysql-container
+        environment:
+          MYSQL_ROOT_PASSWORD: 123456
+          MYSQL_DATABASE: query
+        ports:
+          - "3306:3306"
+        volumes:
+          - ./mysql:/var/lib/mysql
+        networks:
+          - mynetwork
+
+
+    generator-service:
+        build: ./Model/codeT5-base/
+        container_name: generatorservice
+        ports:
+        - "5070:5000"
+        networks:
+          - mynetwork
+         
